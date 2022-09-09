@@ -1,0 +1,131 @@
+.body {
+    background-color: #ffffff;            /* 背景色 */
+    background-image: url("img/114025_22.jpg"); /* 画像 */
+    background-size: cover;               /* 全画面 */
+    background-attachment: fixed;         /* 固定 */
+    background-position: center center;   /* 縦横中央 */
+}
+
+.h1 {
+    text-align:center;
+    /* font-size: 0px;
+    line-height: 30px */
+}
+
+.nav {
+    display: flex;
+    font-size: 10px;
+}
+
+.member1 {
+    display: flex;
+}
+
+.icon1 {
+    display: flex;
+    text-align: left;
+    letter-spacing: 30px
+}
+
+.name1 {
+    /* text-align: left 20px; */
+    display: inline 40px;
+    font-size: 30px;
+    /* vertical-align: 30px */
+
+}
+
+.form1 {
+    background-color: rgba(201, 236, 211, 0.753);;
+    
+}
+
+.form2 {
+    background-color: rgba(201, 219, 236, 0.753);;
+}
+
+.form3 {
+    background-color: rgba(202, 201, 236, 0.753);;
+}
+
+.form4 {
+    background-color: rgba(236, 201, 201, 0.753);;
+}
+
+.form5 {
+    background-color: rgba(236, 201, 227, 0.753);;
+}
+
+.form6 {
+    background-color: rgba(206, 188, 255, 0.753);;
+}
+
+.form7 {
+    background-color: rgba(255, 188, 235, 0.753);;
+}
+
+.form8 {
+    background-color: rgba(255, 188, 188, 0.753);;
+}
+
+.form9 {
+    background-color: rgba(188, 255, 214, 0.753);;
+}
+
+.form10 {
+    background-color: rgba(202, 236, 201, 0.753);;
+}
+
+.form11 {
+    background-color: rgba(236, 232, 201, 0.753);;
+}
+
+.form12 {
+    background-color: rgba(255, 130, 130, 0.753);;
+}
+
+.form13 {
+    background-color: rgba(255, 215, 130, 0.753);;
+}
+
+.form14 {
+    background-color: rgba(197, 255, 130, 0.753);;
+}
+
+.form15 {
+    background-color: rgba(130, 255, 238, 0.753);;
+}
+
+.form16 {
+    background-color: rgba(204, 201, 236, 0.753);;
+}
+
+.form17 {
+    background-color: rgba(233, 201, 236, 0.753);;
+}
+
+.form18 {
+    background-color: rgba(204, 201, 236, 0.753);;
+}
+
+.form19 {
+    background-color: rgba(207, 149, 149, 0.753);;
+}
+
+.form20 {
+    background-color: rgba(169, 196, 138, 0.753);;
+}
+
+/* .member1 {
+    display: flex;
+    justify-content: start;
+}
+
+.icon1 {
+    letter-spacing: 30px
+}
+
+.name {
+    /* justify-content: start; */
+    vertical-align: 20px
+} */
