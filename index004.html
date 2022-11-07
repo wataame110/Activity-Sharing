@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css"> <title>Document</title>
+</head>
+
+<body>
+    <form id="testform">
+      InputManテキストコントロール:<input id="gcTextBox"><br>
+      通常のテキスト要素<input id="sttext" type="text">
+    </form>
+  
+    <script>
+      gcTextBox1 = new GC.InputMan.GcTextBox(document.getElementById('gcTextBox'), {
+      });
+  
+      //保存したいフォーム要素を引数に指定します
+      fp = new GC.InputMan.GcFormPersistence(document.getElementById('testform'));
+      //persistメソッドを実行します
+      fp.persist();
+  
+    </script>
+  </body>
+  
+
+</html>
